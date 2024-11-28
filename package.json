@@ -1,23 +1,25 @@
 {
-  "name": "parcel-template",
+  "name": "crud",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://RomanZarazovskii.github.io/parcel-template",
+  "homepage": "https://RomanZarazovskii.github.io/crud",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-template/"
+    "build": "parcel build src/*.html --public-url /crud/",
+    "server": "json-server db.json"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RomanZarazovskii/parcel-template.git"
+    "url": "git+https://github.com/RomanZarazovskii/crud.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/RomanZarazovskii/parcel-template/issues"
+    "url": "https://github.com/RomanZarazovskii/crud/issues"
   },
   "dependencies": {
+    "json-server": "^1.0.0-beta.3",
     "modern-normalize": "^1.1.0"
   },
   "devDependencies": {
